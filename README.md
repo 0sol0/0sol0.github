@@ -1,1 +1,0 @@
-# 0sol0.github.io
