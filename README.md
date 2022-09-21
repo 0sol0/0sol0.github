@@ -1,4 +1,5 @@
-# Categories
+# Sol's Blog
+## Categories
 
 **[TIL](#TIL)**
 
