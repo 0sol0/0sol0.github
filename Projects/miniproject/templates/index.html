@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Webpage Title -->
+    <title>KGZ</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+
+    <!-- 구글폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function show_member() { 
+        //멤버[onclick="show_member()"]을 누르면,
+            let show_member = $('#member-box').css('display') 
+            //멤버 소개 창[id="member-box"]의 css의 'display'값을 show_member에 넣는다.
+            if (show_member == 'none') { 
+            //만약 show_member 값이 'none'이면,
+                $("#member-box").show() 
+                //멤버 소개 창[id="member-box"]을 보여준다
+            } else {
+            //show_meber 값이 'none'이 아니면,
+                $("#member-box").hide()
+                //멤버 소개 창[id="member-box"]을 숨긴다
+            }
+        }
+
+        function update() { 
+        //수정 버튼[onclick="update()"]을 누르면,
+            let update = $('#update-box').css('display') 
+            //수정창[id="update-box"]의 css의 'display'값을 update에 넣는다.
+            if (update == 'none') { 
+            //만약 update 값이 'none'이면,
+                $("#update-box").show() 
+                //수정창[id="update-box"]을 보여준다
+            }
+        }
+
+        function update_save() { 
+        //저장 버튼[onclick="update_save()"]을 누르면,
+            let update_save = $("#update-box").css('display') 
+            //수정창[id="update-box"]의 css의 'display'값을 update_save에 넣는다.
+            if (update_save == 'block') { 
+            //만약 update_save 값이 'block'이면,
+                $("#update-box").hide() 
+                //수정창[id="update-box"]을 숨긴다
+            }
+
+            let update_name = $('#update-name').val()
+            let update_date = $('#update-date').val() 
+            let update_hobby = $('#update-hobby').val()
+            let update_mbti = $('#update-mbti').val() 
+            let update_advantage = $('#update-advantage').val()
+            let update_jobstyle = $('#update-jobstyle').val() 
+            let update_comment = $('#update-comment').val()
+            let update_blogurl = $('#update-blogurl').val()
+            let update_password = $('#update-password').val()
+
+            $.ajax({
+                    type : "POST", //Type을 설정하고,
+                    url : "/update",
+                    data : {update_name_give : update_name,
+                            update_date_give : update_date,
+                            update_hobby_give : update_hobby,
+                            update_mbti_give : update_mbti,
+                            update_advantage_give : update_advantage,
+                            update_jobstyle_give : update_jobstyle,
+                            update_comment_give : update_comment,
+                            update_blogurl_give : update_blogurl,
+                            update_password_give : update_password
+                    }, //POST 요청 API에 data를 보낸다
+                    success: function(response){
+                        alert(response["msg"])              
+                }
+            })
+            if (update_password == insert_save[insert_password]){
+                $.ajax({// 서버의 데이터를 받아오기
+                    type: "GET",
+                    url: "/show_update",
+                    data: {},
+                    success: function (response) {
+                        let members = response['all_members']
+
+                        for (let i = 0; i < members.length; i++) {
+                            let name = members[i]['name']
+                            let date = members[i]['date']
+                            let hobby = members[i]['hobby']
+                            let mbti = members[i]['mbti']
+                            let advantage = members[i]['advantage']
+                            let jobstyle = members[i]['jobstyle']
+                            let comment = members[i]['comment']
+                            let blogurl = members[i]['blogurl']
+
+                            let temp_html =`<!-- 멤버 소개 버튼 -->
+                                            <button onclick="show_member()" type="button" id="btn_show_member" class="btn">${name}</button>
+
+                                            <!-- 소개창 -->
+                                            <div id="member-box" class="box">
+                                                
+                                                <!-- 수정버튼 -->
+                                                <button onclick="update()" type="reset" id="btn_update" class="btn"> 수정 </button>
+                                                
+                                                <p>이름 : <span>${name}</span></p>
+                                                <p>생년월일 : <span>${date}</span></p>
+                                                <p>취미 : <span>${hobby}</span></p>
+                                                <p>MBTI : <span>${mbti}</span></p>
+                                                <p>장점 : <span>${advantage}</span></p>
+                                                <p>협업스타일 : <span>${jobstyle}</span></p>
+                                                <p>하고 싶은 말 : <span>${comment}</span></p>
+                                                <p>블로그 주소 : <span>${blogurl}</span></p>`
+
+                                $("#introduce-box").replaceWith(temp_html)
+                        }
+                    }
+                })                
+            }
+
+        }
+
+        function insert() { 
+        //추가 버튼[onclick="insert()"]을 누르면,
+            let insert = $('#insert-box').css('display') 
+            //입력창[id="insert-box"]의 css의 'display'값을 insert에 넣는다.
+            if (insert == 'none') { 
+            //만약 insert 값이 'none'이면,
+                $("#insert-box").show() 
+                //입력창[id="insert-box"]을 보여준다
+            }
+
+            
+        }
+
+        function insert_save() {
+        //저장 버튼[onclick="insert_save()"]을 누르면,
+            let insert_save = $("#insert-box").css('display') 
+            //입력창[id="insert-box"]의 css의 'display'값을 insert_save에 넣는다.
+            if (insert_save == 'block') { 
+            //만약 insert_save 값이 'block'이면,
+                $("#insert-box").hide()
+                //입력창[id="insert-box"]을 숨긴다
+            }
+
+            let insert_name = $('#insert-name').val()
+            let insert_date = $('#insert-date').val() 
+            let insert_hobby = $('#insert-hobby').val()
+            let insert_mbti = $('#insert-mbti').val() 
+            let insert_advantage = $('#insert-advantage').val()
+            let insert_jobstyle = $('#insert-jobstyle').val() 
+            let insert_comment = $('#insert-comment').val()
+            let insert_blogurl = $('#insert-blogurl').val()
+            let insert_password = $('#insert-password').val()
+
+            $.ajax({
+                    type : "POST", //Type을 설정하고,
+                    url : "/insert",
+                    data : {insert_name_give : insert_name,
+                            insert_date_give : insert_date,
+                            insert_hobby_give : insert_hobby,
+                            insert_mbti_give : insert_mbti,
+                            insert_advantage_give : insert_advantage,
+                            insert_jobstyle_give : insert_jobstyle,
+                            insert_comment_give : insert_comment,
+                            insert_blogurl_give : insert_blogurl,
+                            insert_password_give : insert_password
+                    }, //POST 요청 API에 data를 보낸다
+                    success: function(response){
+                        alert(response["msg"])              
+                }
+            })
+
+            
+            $.ajax({// 서버의 데이터를 받아오기
+                type: "GET",
+                url: "/show",
+                data: {},
+                success: function (response) {
+                    let members = response['all_members']
+                    for (let i = 0; i < members.length; i++) {
+                        let name = members[i]['name']
+                        let date = members[i]['date']
+                        let hobby = members[i]['hobby']
+                        let mbti = members[i]['mbti']
+                        let advantage = members[i]['advantage']
+                        let jobstyle = members[i]['jobstyle']
+                        let comment = members[i]['comment']
+                        let blogurl = members[i]['blogurl']
+
+                        let temp_html =`<!-- 멤버 소개 버튼 -->
+                                        <button onclick="show_member()" type="button" id="btn_show_member" class="btn">${name}</button>
+
+                                        <!-- 소개창 -->
+                                        <div id="member-box" class="box">
+                                            
+                                            <!-- 수정버튼 -->
+                                            <button onclick="update()" type="reset" id="btn_update" class="btn"> 수정 </button>
+                                            
+                                            <p>이름 : <span>${name}</span></p>
+                                            <p>생년월일 : <span>${date}</span></p>
+                                            <p>취미 : <span>${hobby}</span></p>
+                                            <p>MBTI : <span>${mbti}</span></p>
+                                            <p>장점 : <span>${advantage}</span></p>
+                                            <p>협업스타일 : <span>${jobstyle}</span></p>
+                                            <p>하고 싶은 말 : <span>${comment}</span></p>
+                                            <p>블로그 주소 : <span>${blogurl}</span></p>`
+                        $("#introduce-box").append(temp_html)
+                    }
+                }
+            })
+        }
+    </script>
+    <style>
+        .box{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="introduce-box">
+        <!-- 멤버 소개 버튼 -->
+
+        <!-- 소개창 -->
+            
+            <!-- 수정버튼 -->
+            
+            <!-- 소개 -->
+
+            <!-- 수정창 -->
+            <div id="update-box" class="box">
+                <p>
+                    <label>이름 : </label>
+                    <input type="text" id="update-name" class="update">
+                </p>
+                <p>
+                    <label>생년월일 : </label>
+                    <input type="date" id="update-date" class="update">
+                </p>
+                    <label>취미 : </label>
+                    <input type="text" id="update-hobby" class="update">
+                </p>
+                <p>
+                    <label>MBTI : </label>
+                    <input type="text" id="update-mbti" class="update">
+                </p>
+                <p>
+                    <label>장점 : </label>
+                    <input type="textarea" id="update-advantage" class="update">
+                </p>
+                <p>
+                    <label>협업스타일 : </label>
+                    <input type="textarea" id="update-jobstyle" class="update">
+                </p>
+                <p>
+                    <label>하고 싶은 말 : </label>
+                    <input type="textarea" id="update-comment" class="update">
+                </p>
+                <p>
+                    <label>블로그 주소</label>
+                    <input type="url" id="update-blogurl" class="update">
+                </p>
+        
+                <!-- 비밀번호 입력 -->
+                <input type="password" id="update-password">
+        
+                <!-- 저장 버튼 -->
+                <button onclick="update_save()" type="reset" id="btn_update_save" class="btn">저장하기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 추가버튼 -->
+    <button onclick="insert()" type="reset" id="btn_insert" class="btn"> + 추가 </button>
+
+    <!-- 입력창 -->
+    <div id="insert-box" class="box">
+        <p>
+            <label>이름 : </label>
+            <input type="text" id="insert-name" class="insert">
+        </p>
+        <p>
+            <label>생년월일 : </label>
+            <input type="date" id="insert-date" class="insert">
+        <p>
+            <label>취미 : </label>
+            <input type="text" id="insert-hobby" class="insert">
+        </p>
+        <p>
+            <label>MBTI : </label>
+            <input type="text" id="insert-mbti" class="insert">
+        </p>
+        <p>
+            <label>장점 : </label>
+            <input type="textarea" id="insert-advantage" class="insert">
+        </p>
+        <p>
+            <label>협업스타일 : </label>
+            <input type="textarea" id="insert-jobstyle" class="insert">
+        </p>
+        <p>
+            <label>하고 싶은 말 : </label>
+            <input type="textarea" id="insert-comment" class="insert">
+        </p>
+        <p>
+            <label>블로그 주소</label>
+            <input type="url" id="insert-blogurl">
+        </p>
+
+        <!-- 비밀번호 입력 -->
+        <input type="password" id="insert-password">
+
+        <!-- 저장 버튼 -->
+        <button onclick="insert_save()" type="reset" id="btn_insert_save" class="btn">저장하기</button>
+    </div>
+
+</body>
+</html>

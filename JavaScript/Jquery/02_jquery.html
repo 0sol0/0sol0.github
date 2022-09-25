@@ -1,0 +1,69 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    // 크롬 개발자도구 콘솔창에서 쳐보기
+    // id 값이 post-url인 곳을 가리키고, val()로 값을 가져온다.
+    $('#post-url').val();
+    // 크롬 개발자도구 콘솔창에 쳐보기
+    // id 값이 post-box인 곳을 가리키고, hide()로 안보이게 한다.(=css의 display 값을 none으로 바꾼다)
+    $('#post-box').hide();
+
+    // show()로 보이게 한다.(=css의 display 값을 block으로 바꾼다)
+    $('#post-box').show();
+
+    $('#post-box').hide();
+    $('#post-box').css('display');
+
+    $('#post-box').show();
+    $('#post-box').css('display');
+
+    $('#post-url').val('여기에 텍스트를 입력하면!');
+
+    $('#btn-posting-box').text('포스팅 박스 닫기');
+
+    let temp_html = '<button>나는 추가될 버튼이다!</button>';
+    $('#cards-box').append(temp_html);
+
+    // 주의: 홑따옴표(')가 아닌 backtick(`)으로 감싸야 합니다.
+    // 숫자 1번 키 왼쪽의 버튼을 누르면 backtick(`)이 입력됩니다.
+    // backtick을 사용하면 문자 중간에 Javascript 변수를 삽입할 수 있습니다.
+    let img_url = 'https://www.eurail.com/content/dam/images/eurail/Italy%20OCP%20Promo%20Block.adaptive.767.1535627244182.jpg';
+    let link_url = 'https://naver.com/';
+    let title = '여기 기사 제목이 들어가죠';
+    let desc = '기사의 요약 내용이 들어갑니다. 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라만세 무궁화 삼천리 화려강산...';
+    let comment = '여기에 코멘트가 들어갑니다.';
+
+    let temp_html = `<div class="card">
+                        <img class="card-img-top"
+                            src="${img_url}"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <a href="${link_url}" class="card-title">${title}</a>
+                            <p class="card-text">${desc}</p>
+                            <p class="card-text comment">${comment}</p>
+                        </div>
+                    </div>`;
+    $('#cards-box').append(temp_html);
+</script>
+<div class="posting-box" id="post-box">
+    <div class="form-group">
+        <label for="exampleInputEmail1">아티클 URL</label>
+        <input id="post-url" type="email" class="form-control" aria-describedby="emailHelp"
+            placeholder="">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">간단 코멘트</label>
+        <input type="password" class="form-control" placeholder="">
+    </div>
+    <!-- 가리키고 싶은 버튼에 id 값을 준다음 -->
+    <button id="btn-posting-box" type="button" class="btn btn-primary">포스팅 박스 열기</button>
+</div>
+<!-- 사이에 html을 넣고 싶은 태그에 id값을 준 다음 -->
+<div id="cards-box" class="card-columns">
+    <div class="card">
+      <img class="card-img-top" src="https://www.fodors.com/wp-content/uploads/2018/10/4_UltimateRome_PiazzaNavona-975x650.jpg" alt="Card image cap">
+      <div class="card-body">
+        <a href="https://naver.com/" class="card-title">여기 기사 제목이 들어가죠</a>
+        <p class="card-text">여기에 기사 내용이 들어가겠죠</p>
+        <p class="card-text comment">여기엔 코멘트가 들어갑니다</p>
+      </div>
+    </div>
+  </div>
