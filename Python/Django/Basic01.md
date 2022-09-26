@@ -164,7 +164,7 @@ print(cookie)
 3 | 로그인, DB 등의 관리와 관리자 페이지 구축을 직접해 주어야 한다. | DB, 로그인, Admin, 패스워드 암호와 등 이미 제공한다.
 
 ### Django
-![Django_MVT](./Image/Django%20MVT.png)
+![Django_MVT](./Image/Django/MVT.png)
 - M(model)
     - 데이베이스의 모델(ORM)
     - 저장되고 사용되는 데이터의 형태

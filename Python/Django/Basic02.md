@@ -1,6 +1,6 @@
 ## 프로젝트 구조 만들기
 ### Django_MVT
-![Django_MVT](./Image/Django%20MVT.png)
+![Django_MVT](./Image/Django/MVT.png)
 
 ### 프로젝트 구조
 기능(sns)
@@ -13,7 +13,7 @@
 - tweet앱 : 글 관리(글쓰기, 삭제, 수정, 댓글)을 담당
 
 ### 프로젝트 세팅
-settings.py에서 INSRALLED_APPS에 새로 만든 APP 추가
+`settings.py`에서 `INSRALLED_APPS`에 새로 만든 APP 추가
 
 ## 데이터베이스와 Django ORM 알아보기
 ### ORM
