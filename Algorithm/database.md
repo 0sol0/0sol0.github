@@ -54,3 +54,5 @@ API 설계 - API 명세서 (swagger) = djEjgrp eodlxj wnrhqkesmswl
 `git add '파일 이름'`
 `git commit -m '메세지'`
 `git puch origin mybranch`
+
+![git](https://blog.kakaocdn.net/dn/o6KFg/btq1Kcy0tAh/6e9TdpCc1k4JY1ViAucOo1/img.png)
