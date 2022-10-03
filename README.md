@@ -179,6 +179,12 @@
 - [20220928_TIL](./TIL/2022/09/4/28.md)
 - [20220929_TIL](./TIL/2022/09/4/29.md)
 - [20220930_TIL](./TIL/2022/09/4/30.md)
+- [202209_4_WIL](./TIL/2022/09/4.md)
+
+</div>
+</details>
+
+- [202209_MIL](./TIL/2022/09.md)
 
 </div>
 </details>
@@ -186,6 +192,28 @@
 </div>
 </details>
 
+<details>
+<summary>10월</summary>
+<div markdown="1">
+
+<details>
+<summary>0주</summary>
+<div markdown="1">
+
+- ~~[20221001_TIL](./TIL/2022/10/0/01.md)~~
+- ~~[20221002_TIL](./TIL/2022/10/0/02.md)~~
+
+<deails>
+</div>
+
+ <summary>1주</summary>
+<div markdown="1">
+
+<deails>
+</div>
+
+<deails>
+</div>
 ---
 
 ## **Programming Languege**
