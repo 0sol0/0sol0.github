@@ -210,6 +210,9 @@
 <summary>1주</summary>
 <div markdown="1">
 
+- [20221003_TIL](./TIL/2022/10/1/03.md)
+- [20221004_TIL](./TIL/2022/10/1/04.md)
+
 </details>
 </div>
 
