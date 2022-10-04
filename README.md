@@ -203,16 +203,10 @@
 - ~~[20221001_TIL](./TIL/2022/10/0/01.md)~~
 - ~~[20221002_TIL](./TIL/2022/10/0/02.md)~~
 
-<deails>
+</deails>
 </div>
 
- <summary>1주</summary>
-<div markdown="1">
-
-<deails>
-</div>
-
-<deails>
+</deails>
 </div>
 ---
 
