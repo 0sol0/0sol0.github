@@ -4,7 +4,7 @@
 - 서버 : 요청을 받아서 응답 해 주는 곳<br>
 - API : 데이터를 어떻게 주고 받자! 라고 정한 약속<br>
 
-![웹의 동작 구조](./Image/%EC%9B%B9%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EA%B5%AC%EC%A1%B0.png)
+![웹의 동작 구조](/image/%EC%9B%B9%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EA%B5%AC%EC%A1%B0.png)
 
 - 페이지를 받는 경우 : HTML, CSS, Javascript가 적절하게 섞여있는 페이지를 받는 경우<br>
 - 데이터만 받는 경우 : 페이지나 화면은 크게 필요 없고, '데이터' 만을 받고 싶은 경우<br>
@@ -164,7 +164,7 @@ print(cookie)
 3 | 로그인, DB 등의 관리와 관리자 페이지 구축을 직접해 주어야 한다. | DB, 로그인, Admin, 패스워드 암호와 등 이미 제공한다.
 
 ### Django
-![Django_MVT](./Image/Django/MVT.png)
+![Django_MVT](/image/Django%20MVT.png)
 - M(model)
     - 데이베이스의 모델(ORM)
     - 저장되고 사용되는 데이터의 형태

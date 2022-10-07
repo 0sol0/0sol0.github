@@ -1,4 +1,4 @@
-# Categories
+# **Categories**
 
 **[TIL](#TIL)**
 
@@ -12,16 +12,27 @@
 
 [Git](#Git)
 
-**[Coding Test](#coding-test)**
+**[Data Structure & Algorithm](#DataStructure_Algorithm)**
 * [Algorithm](#Algorithm)
-  * [BaekJoon](#BackJoon)
-  * [TimeAtack](#timeatack)
+* [BaekJoon](#BackJoon)
+* [TimeAtack](#timeatack)
+* [AI](#artifficial-intelligence)
+  * [ML](#machine-learning)
+  * [DL](#deep-learning)
 
-* [Projects](#projects)
+**[Projects](#projects)**
+* Web(with HTML, CSS, JS, Python)
+* python
+* Django
+
+<br>
 
 ---
+<br>
 
-## **TIL**
+# **List**
+
+# TIL
 <details>
 <summary>8월</summary>
 <div markdown="1">
@@ -206,15 +217,15 @@
 </details>
 </div>
 
- <details>
+<details>
 <summary>1주</summary>
 <div markdown="1">
 
 - [20221003_TIL](./TIL/2022/10/1/03.md)
 - [20221004_TIL](./TIL/2022/10/1/04.md)
 - [20221005_TIL](./TIL/2022/10/1/05.md)
-- [20221005_TIL](./TIL/2022/10/1/05.md)
 - [20221006_TIL](./TIL/2022/10/1/06.md)
+- [20221007_TIL](./TIL/2022/10/1/07.md)
 
 </details>
 </div>
@@ -224,101 +235,178 @@
 
 ---
 
-## **Programming Languege**
+<br>
+
+# Programming_Languege
 ## HTML&CSS
-- [01_basic](./HTML%26CSS/01_basic.html)
-- [01_bootstrap](./HTML%26CSS/01_bootstrap.html)
-- [01_login](./HTML%26CSS/01_login.html)
-- [01_quiz](./HTML%26CSS/01_quiz.html)
+#### 웹 프로그래밍 A-Z 기초
+- [01_basic](./ProgrammingLanguge/HTML_CSS/01_basic.html)
+- [01_bootstrap](./ProgrammingLanguge/HTML_CSS/01_bootstrap.html)
+- [01_login](./ProgrammingLanguge/HTML_CSS/01_login.html)
+- [01_quiz](./ProgrammingLanguge/HTML_CSS/01_quiz.html)
+
+<br>
+
+---
+
+<br>
+
 ## JavaScript
-- [01_javascript00](./JavaScript/01_javascript00.js)
-- [01_javascript01](./JavaScript/01_javascript01.js)
-- [01_javascript02](./JavaScript/01_javascript02.js)
+#### 웹 프로그래밍 A-Z 기초
+- [01_javascript00](./ProgrammingLanguge/JavaScript/01_javascript00.js)
+- [01_javascript01](./ProgrammingLanguge/JavaScript/01_javascript01.js)
+- [01_javascript02](./ProgrammingLanguge/JavaScript/01_javascript02.js)
+
+<br>
+
 ### Jquery
-- [02_jquery](./JavaScript/Jquery/02_jquery.html)
-- [02_jqueryquiz](./JavaScript/Jquery/02_jqueryquiz.html)
+- [02_jquery](./ProgrammingLanguge/JavaScript/Jquery/02_jquery.html)
+- [02_jqueryquiz](./ProgrammingLanguge/JavaScript/Jquery/02_jqueryquiz.html)
+
+<br>
+
 ### Ajax
-- [02_Ajax00](./JavaScript/Ajax/02_Ajax00.html)
-- [02_Ajax01](./JavaScript/Ajax/02_Ajax01.html)
-- [02_Ajax02](./JavaScript/Ajax/02_Ajax02.html)
-- [02_Ajax03](./JavaScript/Ajax/02_Ajax03.html)
+- [02_Ajax00](./ProgrammingLanguge/JavaScript/Ajax/02_Ajax00.html)
+- [02_Ajax01](./ProgrammingLanguge/JavaScript/Ajax/02_Ajax01.html)
+- [02_Ajax02](./ProgrammingLanguge/JavaScript/Ajax/02_Ajax02.html)
+- [02_Ajax03](./ProgrammingLanguge/JavaScript/Ajax/02_Ajax03.html)
+
+<br>
+
+---
+
+<br>
+
 ## Python
-- [03_hello](./Python/03_hello.py)
-- [03_basic](./Python/03_basic.py)
-- [03_requests](./Python/03_requests.py)
-- [03_bs4](./Python/03_bs4.py)
-- [03_pymongo](./Python/03_pymongo.py)
-- [prac](./Python/prac.py)
-- [03_dbprac](./Python/03_dbprac.py)
-- [03_dbquiz](./Python/03_dbquiz.py)
-- [03_dbquiz01](./Python/03_dbquiz01.py)
-- [03_dbquiz02](./Python/03_dbquiz02.py)
-- [03_dbquiz03](./Python/03_dbquiz03.py)
-- [03_homework](./Python/03_homework.py)
+#### 웹 프로그래밍 A-Z 기초
+- [03_hello](./ProgrammingLanguge/Python/03_hello.py)
+- [03_basic](./ProgrammingLanguge/Python/03_basic.py)
+- [03_requests](./ProgrammingLanguge/Python/03_requests.py)
+- [03_bs4](./ProgrammingLanguge/Python/03_bs4.py)
+- [03_pymongo](./ProgrammingLanguge/Python/03_pymongo.py)
+- [prac](./ProgrammingLanguge/Python/prac.py)
+- [03_dbprac](./ProgrammingLanguge/Python/03_dbprac.py)
+- [03_dbquiz](./ProgrammingLanguge/Python/03_dbquiz.py)
+- [03_dbquiz01](./ProgrammingLanguge/Python/03_dbquiz01.py)
+- [03_dbquiz02](./ProgrammingLanguge/Python/03_dbquiz02.py)
+- [03_dbquiz03](./ProgrammingLanguge/Python/03_dbquiz03.py)
+- [03_homework](./ProgrammingLanguge/Python/03_homework.py)
 
-- [codingnow](./Python/codingnow.py)
-- [nadocoding](./Python/nadocoding.py)
-- [prymid](./Python/prymid.py)
-- [Calculator](./Python/Calculator.py)
+<br>
 
-- [Basic01](./Python/Basic01.md)
-- [Basic02](./Python/Basic02.md)
-- [Nember_baseball_game](./Python/nember_baseball_game.py)
-- [NumberBaseballGame](./Python/NumberBaseballGame.md)
-- [Basic03](./Python/Basic03.md)
-- [main](./Python/def/main.py)
-- [sub](./Python/def/sub.py)
-- [Basic04](./Python/Basic04.md)
-- [class1](./Python/class/class1.py)
-- [class2](./Python/class/class2.py)
-- [class3](./Python/class/class3.py)
-- [Basic05](./Python/Basic05.md)
-- [try_except](./Python/try_except.py)
-- [lambda](./Python/lambda.py)
-- [Basic06](./Python/Basic06.md)
-- [If_while_for](./Python/If_while_for.py)
+#### youtube
+- [codingnow](./ProgrammingLanguge/Python/codingnow.py)
+- [nadocoding](./ProgrammingLanguge/Python/nadocoding.py)
+- [prymid](./ProgrammingLanguge/Python/prymid.py)
+- [Calculator](./ProgrammingLanguge/Python/Calculator.py)
+
+<br>
+
+#### 실시간 강의
+- [Basic01](./ProgrammingLanguge/Python/Basic01.md)
+- [Basic02](./ProgrammingLanguge/Python/Basic02.md)
+- [Nember_baseball_game](./ProgrammingLanguge/Python/nember_baseball_game.py)
+- [NumberBaseballGame](./ProgrammingLanguge/Python/NumberBaseballGame.md)
+- [Basic03](./ProgrammingLanguge/Python/Basic03.md)
+- [main](./ProgrammingLanguge/Python/def/main.py)
+- [sub](./ProgrammingLanguge/Python/def/sub.py)
+- [Basic04](./ProgrammingLanguge/Python/Basic04.md)
+- [class1](./ProgrammingLanguge/Python/class/class1.py)
+- [class2](./ProgrammingLanguge/Python/class/class2.py)
+- [class3](./ProgrammingLanguge/Python/class/class3.py)
+- [Basic05](./ProgrammingLanguge/Python/Basic05.md)
+- [try_except](./ProgrammingLanguge/Python/try_except.py)
+- [lambda](./ProgrammingLanguge/Python/lambda.py)
+- [Basic06](./ProgrammingLanguge/Python/Basic06.md)
+- [If_while_for](./ProgrammingLanguge/Python/If_while_for.py)
+
+<br>
+
 ### Django
-- [Gauid](./Python/Django/Django_Gauid.md)
-- [Basic01](./Python/Django/Django_Basic01.md)
-- [Basic02](./Python/Django/Django_Basic02.md)
-- [Basic03](./Python/Django/Django_Basic03.md)
-- [Basic04](./Python/Django/Django_Basic04.md)
-- [Basic05](./Python/Django/Django_Basic05.md)
+- [Gauid](./ProgrammingLanguge/Python/Django/Django_Gauid.md)
+- [Basic01](./ProgrammingLanguge/Python/Django/Django_Basic01.md)
+- [Basic02](./ProgrammingLanguge/Python/Django/Django_Basic02.md)
+- [Basic03](./ProgrammingLanguge/Python/Django/Django_Basic03.md)
+- [Basic04](./ProgrammingLanguge/Python/Django/Django_Basic04.md)
+- [Basic05](./ProgrammingLanguge/Python/Django/Django_Basic05.md)
+
+<br>
 
 ---
+
+<br>
+
 ## Git
-- [Gauid](./Git/Guaid.md)
-- [Basic01](./Git/Basic01.txt)
-- [Basic02](./Git/Basic02.txt)
-- [Basic03](./Git/Basic03.md)
-- [MarkDawn](./Git/MarkDawn.md)
+- [Gauid](./ProgrammingLanguge/Git/Guaid.md)
+- [Basic01](./ProgrammingLanguge/Git/Basic01.txt)
+- [Basic02](./ProgrammingLanguge/Git/Basic02.txt)
+- [Basic03](./ProgrammingLanguge/Git/Basic03.md)
+- [MarkDawn](./ProgrammingLanguge/Git/MarkDawn.md)
+
+<br>
 
 ---
 
-## **Coding Test**
+<br>
+
+# DataStructure_Algorithm
 ## Algorithm
-- [Basic01](./Algorithm/Basic01.md)
-- [Basic02](./Algorithm/Basic02.md)
-- [Basic03](./Algorithm/Basic03.md)
-- [Basic04](./Algorithm/Basic04.md)
-- [find_count_to_turn_out_to_all_zero_or_all_one](./Algorithm/find_count_to_turn_out_to_all_zero_or_all_one.py)
-- [find_prime_list_under_number](./Algorithm/find_prime_list_under_number.py)
-### BaekJoon
-- [if](./Algorithm/BackJoon/if.py)
-- [for](./Algorithm/BackJoon/for.py)
-- [def](./Algorithm/BackJoon/def.py)
-- [string](./Algorithm/BackJoon/string.py)
-- [array1](./Algorithm/BackJoon/array1.py)
-### TimeAtack
-- [01](./Algorithm/TimeAtack/01.py)
+- [Basic01](./DataStructure_Algorithm/Algorithm/Basic01.md)
+- [Basic02](./DataStructure_Algorithm/Algorithm/Basic02.md)
+- [Basic03](./DataStructure_Algorithm/Algorithm/Basic03.md)
+- [Basic04](./DataStructure_Algorithm/Algorithm/Basic04.md)
+- [find_count_to_turn_out_to_all_zero_or_all_one](./DataStructure_Algorithm/Algorithm/find_count_to_turn_out_to_all_zero_or_all_one.py)
+- [find_prime_list_under_number](./DataStructure_Algorithm/Algorithm/find_prime_list_under_number.py)
+
+<br>
 
 ---
-## Projects
-- [prac](./Projects/prac/)
+
+<br>
+
+## BaekJoon
+- [if](./DataStructure_Algorithm/BackJoon/if.py)
+- [for](./DataStructure_Algorithm/BackJoon/for.py)
+- [def](./DataStructure_Algorithm/BackJoon/def.py)
+- [string](./DataStructure_Algorithm/BackJoon/string.py)
+- [array1](./DataStructure_Algorithm/BackJoon/array1.py)
+
+<br>
+
+---
+
+<br>
+
+## TimeAtack
+- [01](./DataStructure_Algorithm/TimeAtack/01.py)
+
+<br>
+
+---
+
+<br>
+
+## Artifficial-Intelligence
+### Machine-Learning
+- [Basic 01](./DataStructure_Algorithm/AI/ML/Basic_01.md)
+
+<br>
+
+### Deep-Learning
+
+<br>
+
+---
+
+<br>
+
+# Projects
 - [alonemeno](./Projects/alonemeno/)
 - [bookreview](./Projects/bookreview/)
 - [moviestar](./Projects/moviestar/)
 - [homework](./Projects/homework/)
+- [Profile](./Projects/Profile/)
+
+- [prac](./Projects/prac/)
 - [Game_Projects](./Python/pygame_basic/)
-- [Prorile](./Projects/Profile/)
 - [MiniProject](./Projects/miniproject/)

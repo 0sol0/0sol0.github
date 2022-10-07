@@ -1,6 +1,6 @@
 ## 프로젝트 구조 만들기
 ### Django_MVT
-![Django_MVT](./Image/Django/MVT.png)
+![Django_MVT](/image/Django%20MVT.png)
 
 ### 프로젝트 구조
 기능(sns)
@@ -113,7 +113,7 @@ Django Tamplate 문법 : `{% Django Tamplate %}`
 - 중복된 html을 다시 작성하지 않고 이어서 작성할 수 있도록 도와준다.
 
 ### url - view - template 이어주기
-![Django_MVT](./Image/Django%20MVT.png)
+![Django_MVT](/image/Django%20MVT.png)
 - M(Model) = models.py
     - 데이터베이스의 모델(ORM)
     - 저장되고 사용되는 데이터의 형태
