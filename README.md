@@ -21,9 +21,6 @@
   * [DL](#deep-learning)
 
 **[Projects](#projects)**
-* Web(with HTML, CSS, JS, Python)
-* python
-* Django
 
 <br>
 
