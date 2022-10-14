@@ -31,8 +31,10 @@
 
 # TIL
 <details>
-<summary>8월</summary>
+<summary><b>8월</b></summary>
 <div markdown="1">
+
+<br>
 
 <details>
 <summary>1주</summary>
@@ -43,13 +45,14 @@
 - [20220803_TIL](./TIL/2022/08/1/03.md)
 - [20220804_TIL](./TIL/2022/08/1/04.md)
 - [20220805_TIL](./TIL/2022/08/1/05.md)
-- ~~[20220806_TIL](./TIL/2022/08/1/06.md)~~
-- ~~[20220807_TIL](./TIL/2022/08/1/07.md)~~
-- [202208_1_WIL](./TIL/2022/08/1.md)
   
 </div>
 </details>
-  
+
+[202208_1_WIL](./TIL/2022/08/1.md)
+
+<br>
+
 <details>
 <summary>2주</summary>
 <div markdown="1">
@@ -59,13 +62,14 @@
 - [20220810_TIL](./TIL/2022/08/2/10.md)
 - [20220811_TIL](./TIL/2022/08/2/11.md)
 - [20220812_TIL](./TIL/2022/08/2/12.md)
-- ~~[20220813_TIL](./TIL/2022/08/2/13.md)~~
-- ~~[20220814_TIL](./TIL/2022/08/2/14.md)~~
-- [202208_2_WIL](./TIL/2022/08/2.md)
   
 </div>
 </details>
-  
+
+[202208_2_WIL](./TIL/2022/08/2.md)
+
+<br>
+
 <details>
 <summary>3주</summary>
 <div markdown="1">
@@ -75,13 +79,14 @@
 - [20220817_TIL](./TIL/2022/08/3/17.md)
 - [20220818_TIL](./TIL/2022/08/3/18.md)
 - [20220819_TIL](./TIL/2022/08/3/19.md)
-- ~~[20220820_TIL](./TIL/2022/08/3/20.md)~~
-- ~~[20220821_TIL](./TIL/2022/08/3/21.md)~~
-- [202208_3_WIL](./TIL/2022/08/3.md)
   
 </div>
 </details>
-  
+
+[202208_3_WIL](./TIL/2022/08/3.md)
+
+<br>
+
 <details>
 <summary>4주</summary>
 <div markdown="1">
@@ -91,13 +96,14 @@
 - [20220824_TIL](./TIL/2022/08/4/24.md)
 - [20220825_TIL](./TIL/2022/08/4/25.md)
 - [20220826_TIL](./TIL/2022/08/4/26.md)
-- ~~[20220827_TIL](./TIL/2022/08/4/27.md)~~
-- ~~[20220828_TIL](./TIL/2022/08/4/28.md)~~
-- [202208_4_WIL](./TIL/2022/08/4.md)
   
 </div>
 </details>
-  
+
+[202208_4_WIL](./TIL/2022/08/4.md)
+
+<br>
+
 <details>
 <summary>5주</summary>
 <div markdown="1">
@@ -109,14 +115,16 @@
 </div>
 </details>
   
-- [202208_MIL](./TIL/2022/08.md)
-  
 </div>
 </details>
 
+<br>
+
 <details>
-<summary>9월</summary>
+<summary><b>9월</b></summary>
 <div markdown="1">
+
+<br>
 
 <details>
 <summary>0주</summary>
@@ -124,12 +132,14 @@
   
 - [20220901_TIL](./TIL/2022/09/0/01.md)
 - [20220902_TIL](./TIL/2022/09/0/02.md)
-- ~~[20220903_TIL](./TIL/2022/09/0/03.md)~~
-- ~~[20220904_TIL](./TIL/2022/09/0/04.md)~~
   
 </div>
-  </details>
-  
+</details>
+
+[202209_4_WIL](./TIL/2022/09/4.md)
+
+<br>
+
 <details>
 <summary>1주</summary>
 <div markdown="1">
@@ -139,13 +149,14 @@
 - [20220907_TIL](./TIL/2022/09/1/07.md)
 - [20220908_TIL](./TIL/2022/09/1/08.md)
 - [20220909_TIL](./TIL/2022/09/1/09.md)
-- ~~[20220910_TIL](./TIL/2022/09/1/10.md)~~
-- ~~[20220911_TIL](./TIL/2022/09/1/11.md)~~
-- [202209_1_WIL](./TIL/2022/09/1.md)
   
 </div>
 </details>
-  
+
+[202209_1_WIL](./TIL/2022/09/1.md)
+
+<br>
+
 <details>
 <summary>2주</summary>
 <div markdown="1">
@@ -155,13 +166,14 @@
 - [20220914_TIL](./TIL/2022/09/2/14.md)
 - [20220915_TIL](./TIL/2022/09/2/15.md)
 - [20220916_TIL](./TIL/2022/09/2/16.md)
-- ~~[20220917_TIL](./TIL/2022/09/2/17.md)~~
-- ~~[20220918_TIL](./TIL/2022/09/2/18.md)~~
-- [202209_2_WIL](./TIL/2022/09/2.md)
   
 </div>
 </details>
-  
+
+[202209_2_WIL](./TIL/2022/09/2.md)
+
+<br>
+
 <details>
 <summary>3주</summary>
 <div markdown="1">
@@ -171,12 +183,13 @@
 - [20220921_TIL](./TIL/2022/09/3/21.md)
 - [20220922_TIL](./TIL/2022/09/3/22.md)
 - [20220923_TIL](./TIL/2022/09/3/23.md)
-- ~~[20220925_TIL](./TIL/2022/09/3/24.md)~~
-- ~~[20220926_TIL](./TIL/2022/09/3/25.md)~~
-- [202209_3_WIL](./TIL/2022/09/3.md)
 
 </div>
 </details>
+
+[202209_3_WIL](./TIL/2022/09/3.md)
+
+<br>
 
 <details>
 <summary>4주</summary>
@@ -187,32 +200,22 @@
 - [20220928_TIL](./TIL/2022/09/4/28.md)
 - [20220929_TIL](./TIL/2022/09/4/29.md)
 - [20220930_TIL](./TIL/2022/09/4/30.md)
-- [202209_4_WIL](./TIL/2022/09/4.md)
 
 </div>
 </details>
 
-- [202209_MIL](./TIL/2022/09.md)
+[202209_4_WIL](./TIL/2022/09/4.md)
 
 </div>
 </details>
 
-</div>
-</details>
+<br>
 
 <details>
-<summary>10월</summary>
+<summary><b>10월</b></summary>
 <div markdown="1">
 
-<details>
-<summary>0주</summary>
-<div markdown="1">
-
-- ~~[20221001_TIL](./TIL/2022/10/0/01.md)~~
-- ~~[20221002_TIL](./TIL/2022/10/0/02.md)~~
-
-</details>
-</div>
+<br>
 
 <details>
 <summary>1주</summary>
@@ -223,12 +226,13 @@
 - [20221005_TIL](./TIL/2022/10/1/05.md)
 - [20221006_TIL](./TIL/2022/10/1/06.md)
 - [20221007_TIL](./TIL/2022/10/1/07.md)
-- ~~[20221008_TIL](./TIL/2022/10/1/08.md)~~
-- ~~[20221009_TIL](./TIL/2022/10/1/09.md)~~
-- [202210_1_WIL](./TIL/2022/10/1/1.md)
 
 </details>
 </div>
+
+[202210_1_WIL](./TIL/2022/10/1.md)
+
+<br>
 
 <details>
 <summary>2주</summary>
@@ -237,6 +241,8 @@
 - [20221010_TIL](./TIL/2022/10/2/10.md)
 - [20221011_TIL](./TIL/2022/10/2/11.md)
 - [20221012_TIL](./TIL/2022/10/2/12.md)
+- [20221013_TIL](./TIL/2022/10/2/13.md)
+- [20221014_TIL](./TIL/2022/10/2/14.md)
 
 </details>
 </div>
