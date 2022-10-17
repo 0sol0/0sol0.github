@@ -250,7 +250,7 @@
 [202210_2_WIL](./TIL/2022/10/2.md)
 
 <details>
-<summary>2주</summary>
+<summary>3주</summary>
 <div markdown="1">
 
 - [20221017_TIL](./TIL/2022/10/2/17.md)
