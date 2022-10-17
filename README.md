@@ -248,12 +248,14 @@
 </div>
 
 [202210_2_WIL](./TIL/2022/10/2.md)
+ 
+ <br>
 
 <details>
 <summary>3주</summary>
 <div markdown="1">
 
-- [20221017_TIL](./TIL/2022/10/2/17.md)
+- [20221017_TIL](./TIL/2022/10/3/17.md)
 
 </details>
 </div>
