@@ -247,6 +247,8 @@
 </details>
 </div>
 
+[202210_2_WIL](./TIL/2022/10/2.md)
+
 </details>
 </div>
 
