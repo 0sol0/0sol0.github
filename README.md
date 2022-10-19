@@ -255,7 +255,6 @@
 <summary>3주</summary>
 <div markdown="1">
 
-<<<<<<< HEAD
 - [20221017_TIL](./TIL/2022/10/2/17.md)
 - [20221018_TIL](./TIL/2022/10/2/18.md)
 
