@@ -268,6 +268,15 @@
 
 <br>
 
+<details>
+<summary>4주</summary>
+<div markdown="1">
+
+- [20221024_TIL](./TIL/2022/10/4/24.md)
+
+</details>
+</div>
+
 </details>
 </div>
 

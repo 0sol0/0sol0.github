@@ -34,7 +34,3 @@ web_project/setting.py
 ```python
 AUTH_USER_MODEL = 'user.UserModel'
 ```
-
-## Django의 사용자 모델을 적용하기 - 회원가입 수정하기
-
-## Django의 사용자 모델을 적용하기 - 로그인 수정하기
