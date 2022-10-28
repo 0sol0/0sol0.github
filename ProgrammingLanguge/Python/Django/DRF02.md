@@ -30,8 +30,3 @@ def base_funtion():
 
 ## swagger
 프로젝트에 있는 API를 자동으로 문서화하는 라이브러리
-
-## class view
-```python
-
-```
