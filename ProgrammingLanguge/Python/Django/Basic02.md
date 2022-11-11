@@ -29,27 +29,6 @@ class myBakery:
 ```
 - class의 이름과 내부에 선언된 변수들이 '비슷한 성격'을 가지고 있다.
 
-#### user model 만들기
-필요한 것
-- 사용자를 구분하는 이름
-- 비밀번호
-- 상태메시지
-- 생성일
-
-```Python
-from django.db import models
-
-# Create your models here.
-class UserModel(models.Model):
-    class Meta:
-        db_table = ''
-    username = models.CharField(max_length=20, null=False)
-    password = models.CharField(max_length=256, null=False)
-    bio = models.CharField(max_length=256, default='')
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-```
-
 ##### djanog 모델 필드의 종류
 - 문자열 : CharField, TextField
 - 날짜/시간 : DateTimeField, DateFiled, TimeField
@@ -65,49 +44,8 @@ class UserModel(models.Model):
 ### Django-admin
 super user 만들기 : `$ createsuperuser`
 
-#### 새로 만든 모델을 admin 페이지에 등록하기
-user/admin.py
-```Python
-from django.contrib import admin
-from .models import UserModel
-
-# Register your models here.
-admin.site.register(UserModel)
-```
-
-### Tweet 모델 만들기
-```Python
-from django.db import models
-from user.models import UserModel
-
-# Create your models here.
-class TweetModel(models.Model):
-    class Meta:
-        db_table = 'tweet'
-    
-    author = models.ForeignKey(UserModel, on_delete=models.CASCADE)
-    content = models.CharField(max_length=256)
-    createdd_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateField(auto_now=True)
-```
-- `author`은 새로운 사용자가 아니기 때문에 `UserModel`에 있는 데이터를 그대로 쓴다. `ForeignKey`
-
-데이터베이스와 연결<br>
-`$ python manage.py makemigrations`<br>
-`$ python manage.py migrate`<br>
-
-admin 페이지에 등록
-```Python
-from django.contrib import admin
-from .models import TweetModel
-
-# Register your models here.
-admin.site.register(TweetModel)
-``` 
-
 model 만들기 -> 데이터베이스와 연결 -> admin페이지에 등록
 
-## 사용자 관리와 로그인 - 화면 띄우기
 #### 템플릿 만들기(HTML 작성하기)
 Django Tamplate 문법 : `{% Django Tamplate %}`
 - 중복된 html을 다시 작성하지 않고 이어서 작성할 수 있도록 도와준다.
@@ -135,15 +73,3 @@ View : 어떤 동작을 해줄 수 있는지 작성
 -> url에 맞는 view.py 작성
 -> view.py와 urls.py 연결
 -> user앱의 urls.py 작성
-
-## 사용자 관리와 로그인 - 회원가입 기능 만들기
-GET : 값을 읽어 올 때
-`if request.method == 'GET':`
-POST : 값을 저장하거나, 수정하거나, 삭제할 때
-`if request.method == 'POST:`
-
-`<from class='form-area' method='POST' action='/sigin-up/'>`
-
-`{% csrf_token %}`
-
-## 사용자 관리와 로그인 - 로그인 기능 만들기

@@ -7,7 +7,7 @@ MVT 방식
 - 프론트엔드와 백엔드에서 repo를 서로 따로 가지고 있음
 - 그 사이에 주고 받는 것은 Ajax를 이용해서 Json data를 사용
 - Templates에 주로 JavaScript를 사용
-- context를 대신 다른 것을 사용한다.
+- context 대신 다른 것을 사용한다.
 - 이것을 편하게 해주는 것이 Django Rest Framework
 
 ## 웹의 흐름(네트워크)

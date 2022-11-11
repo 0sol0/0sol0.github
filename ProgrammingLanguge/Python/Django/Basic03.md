@@ -1,5 +1,3 @@
-## Django 기본 기능
-## 우리가만든 User 모델 업그레이드 하기
 ### class
 ```Python
 class A:
@@ -17,20 +15,4 @@ class B:
 class B(A):
     def 기능_B_!:
         return '기능_B_1'
-```
-
-user/models.py
-```Python
-from django.contrib.auth.models import AbstractUser
-
-class UserModel(AbstractUser):
-    class Meta:
-        db_table = 'my_user'
-
-    bio = models.CharField(max_length=256, default='')
-```
-
-web_project/setting.py
-```python
-AUTH_USER_MODEL = 'user.UserModel'
 ```
