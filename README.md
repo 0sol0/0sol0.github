@@ -401,7 +401,7 @@
 <summary>0주</summary>
 <div markdown="1">
 
-- [20221201_TIL](./TIL/2022/12/01.md)
+- [20221201_TIL](./TIL/2022/12/0/01.md)
 
 </div>
 </details>
