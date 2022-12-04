@@ -386,13 +386,33 @@
 </div>
 </details>
 
+</div>
+</details>
+
 <br>
+
+<details>
+<summary><b>12월</b></summary>
+<div markdown="1">
 
 <details>
 <summary>0주</summary>
 <div markdown="1">
 
 - [20221201_TIL](./TIL/2022/12/01.md)
+- [20221202_TIL](./TIL/2022/12/02.md)
+
+</div>
+</details>
+
+[202212_0_WIL](./TIL/2022/12/0.md)
+
+<br>
+
+<details>
+<summary>1주</summary>
+<div markdown="1">
+
 
 </div>
 </details>
