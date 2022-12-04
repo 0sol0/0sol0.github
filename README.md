@@ -296,6 +296,8 @@
 </div>
 </details>
 
+<br>
+
 </div>
 </details>
 
@@ -385,6 +387,8 @@
 
 </div>
 </details>
+
+<br>
 
 </div>
 </details>
