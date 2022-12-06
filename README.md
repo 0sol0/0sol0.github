@@ -417,6 +417,8 @@
 <summary>1주</summary>
 <div markdown="1">
 
+- [20221205_TIL](./TIL/2022/12/1/05.md)
+- [20221205_TIL](./TIL/2022/12/1/06.md)
 
 </div>
 </details>
