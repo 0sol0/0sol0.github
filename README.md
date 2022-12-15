@@ -430,10 +430,7 @@
 
 <br>
 
-</div>
-</details>
 <details>
-
 <summary>2주</summary>
 <div markdown="1">
 
