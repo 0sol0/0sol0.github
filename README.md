@@ -432,15 +432,35 @@
 
 </div>
 </details>
-<details>
 
+<details>
 <summary>2주</summary>
 <div markdown="1">
 
-- [20221212_TIL](./TIL/2022/12/1/12.md)
-- [20221213_TIL](./TIL/2022/12/1/13.md)
-- [20221214_TIL](./TIL/2022/12/1/14.md)
-- [20221215_TIL](./TIL/2022/12/1/15.md)
+- [20221212_TIL](./TIL/2022/12/2/12.md)
+- [20221213_TIL](./TIL/2022/12/2/13.md)
+- [20221214_TIL](./TIL/2022/12/2/14.md)
+- [20221215_TIL](./TIL/2022/12/2/15.md)
+- [20221216_TIL](./TIL/2022/12/2/16.md)
+
+</div>
+</details>
+
+[202212_2_WIL](./TIL/2022/12/2.md)
+
+<br>
+
+</div>
+</details>
+
+<details>
+<summary>2주</summary>
+<div markdown="1">
+
+- [20221219_TIL](./TIL/2022/12/3/19.md)
+- [20221220_TIL](./TIL/2022/12/3/20.md)
+- [20221221_TIL](./TIL/2022/12/3/21.md)
+- [20221222_TIL](./TIL/2022/12/3/22.md)
 
 </div>
 </details>
