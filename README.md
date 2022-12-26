@@ -637,8 +637,8 @@
 - [2차 프로젝트](https://github.com/0sol0/b4_after)
 - [3차 프로젝트 백](https://github.com/0sol0/B4AFTER-Back)
 - [3차 프로젝트 프론트](https://github.com/0sol0/B4AFTER-Front)
-- [4차 프로젝트 백)(https://github.com/0sol0/B4AFTER_Deeplearning_Backend)
-- [4차 프로젝트 프론트)(https://github.com/0sol0/B4AFTER_Deeplearning_Frontend)
+- [4차 프로젝트 백](https://github.com/0sol0/B4AFTER_Deeplearning_Backend)
+- [4차 프로젝트 프론트](https://github.com/0sol0/B4AFTER_Deeplearning_Frontend)
 - [5차 프로젝트 백](https://github.com/0sol0/ColorShop_B)
 - [5차 프로젝트 백](https://github.com/0sol0/ColorShop_F)
 
