@@ -462,9 +462,6 @@
 
 [202212_3_WIL](./TIL//2022/12/3.md)
 
-</div>
-</details>
-
 <br>
 
 <details>
