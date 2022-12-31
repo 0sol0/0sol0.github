@@ -622,29 +622,6 @@
 
 <br>
 
-## TimeAtack
-- [01](./DataStructure_Algorithm/TimeAtack/01.py)
-
-<br>
-
----
-
-<br>
-
-## Artifficial-Intelligence
-### Machine-Learning
-- [Basic 01](./DataStructure_Algorithm/AI/ML/Basic_01.md)
-
-<br>
-
-### Deep-Learning
-
-<br>
-
----
-
-<br>
-
 # Projects
 - [1차 프로젝트](https://github.com/0sol0/e1i4_insta_clone)
 - [2차 프로젝트](https://github.com/0sol0/b4_after)
