@@ -15,10 +15,6 @@
 **[Data Structure & Algorithm](#DataStructure_Algorithm)**
 * [Algorithm](#Algorithm)
 * [BaekJoon](#BackJoon)
-* [TimeAtack](#timeatack)
-* [AI](#artifficial-intelligence)
-  * [ML](#machine-learning)
-  * [DL](#deep-learning)
 
 **[Projects](#projects)**
 
